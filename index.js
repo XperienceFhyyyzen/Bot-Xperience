@@ -11,7 +11,7 @@ var servers = {};
 
 const client = new Discord.Client();
 
-client.login("token");
+client.login("NTE4Nzc4OTY1MTkyNjA1Njk2.DumGtg.AyJfSqGpoB_IIUn1B3JcOzPjMQM");
 
 bot.on("guildMemberAdd", member => {
     member.guild.channels.find("name", "📡-bienvenue-aurevoir").send('Bienvenue ${member}')
