@@ -8,7 +8,6 @@ const ytdl = require('ytdl-core') ;
 const queue = new Map();
 
 var servers = {};
-var token = token;
 
 const client = new Discord.Client();
 
