@@ -11,7 +11,7 @@ var servers = {};
 
 const client = new Discord.Client();
 
-client.login("NTE4NzgwMTAyMDMzNTM5MDcy.DuwbJA.wdVB8N-dRuJ11ndCIaPQKzwjYy4");
+client.login("token");
 
 client.on("ready", () => {
 
